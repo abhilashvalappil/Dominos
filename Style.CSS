@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    overflow: visible;
+}
+.header{
+    position: fixed;
+    top: 0px;
+    background:rgb(0, 102, 167);
+    width: 100%;
+    height: 48px;
+}
+.log-img{
+    padding-left: 18px;
+    border-left: 1px solid rgb(0, 203, 188);
+}
+body{
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+}
+.login{
+    width: 10%;
+    float:right
+}
+.login{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-family: proxima-nova, sans-serif;
+    margin-top: 10px;
+    float: left;
+    margin-left: 1304px;
+
+}
+.signup{
+    cursor: pointer;
+    color: rgb(85, 204, 246);
+    font-size: 11.52px;
+    font-family: proxima-nova, sans-serif;
+    float: inline-start;
+    margin-top: 2px;
+    margin-left: 1303px;
+}
+.center{
+    margin-top: 48px;
+}
+ul{
+    list-style-type: none;
+}
+.log-img{
+    cursor: pointer;
+    margin-right: 158px;
+    width: 30px;
+    position:relative;
+    margin-left: 1277px;
+    margin-top: 0px;
+    bottom: 28px;
+}
+.line{
+    display: flex;
+    border-left: 1px solid rgb(0, 203, 188);
+}
+.head-img{
+    background-size: 100%;
+    margin-top: 100px;
+    margin-left: 83px;
+    width: 20.6rem;
+    height: 3.25rem;
+    margin: bottom 8px;
+}
+.adv-img{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 420px;
+    width: 730px;
+    margin: 0px auto;
+    float: inline-end;
+}
+.ipl-img{
+    float: right;
+    cursor: pointer;
+    height: 17%;
+    margin-top: 433px;
+    width: 729px;
+    margin-left: 332px;
+    position: absolute;
+}
+
+.para{
+    position: absolute;
+    font-size: 20px;
+    font-family: proxima-nova, sans-serif;
+    color: rgb(106, 103, 110);
+    line-height: 32px;
+    display: block;
+    width: 80%;
+    margin-left: 82px;
+    margin-top: 13px;
+}
+.bg-img{
+    position: absolute;
+    background-position: center bottom;
+    width: 740px;
+    margin-top: 46px;
+}
+.radio-btn{
+    margin-top: 10px;
+    position: absolute;
+
+}
+.delivery-type{
+    color: rgb(0, 102, 167);
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    font-weight: 540;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 88px;
+}
+.del-btn{
+    margin-top: 114px;
+    margin-left: 84px;
+    
+}
+.sub-con{
+    position: absolute;
+    color:rgb(0, 102, 167);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: proxima-nova, sans-serif;
+}
+.delivery{
+    font-weight: 500;
+    font-size: 15px;
+    font: bold;
+}
+input[type=radio] {
+    outline: 1px auto rgb(0, 102, 167);
+    accent-color: rgb(0, 102, 167);
+  
+}
+.pck-btn{
+    margin-left: 12px;
+    height: 0.8rem;
+    width: 0.8rem;
+}
+.pck{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.location-icon{
+    position: absolute;
+    padding-left: 94px;
+    padding-top: 167px;
+    width: 13px;
+    height: 19px;
+}
+.column{
+    margin-top: 153px;
+    margin-left: 82px;
+    width: 532px;
+    height: 45px;
+    border: 1.5px solid rgb(182, 223, 238);
+    border-radius: 3px;
+    cursor: pointer;
+}
+input::placeholder {
+    color: rgb(182, 223, 238);
+    width: 100%;
+    padding-left: 35px;
+    font-size: 15px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+  }
+  .lct-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 171, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    position: absolute;
+    margin-left: 488px;
+    margin-top: 162px;
+    width: 122px;
+    font-weight: 600;
+    height: 32px;
+    text-align: right;
+  }
+  .locate-me{
+    margin-top: 168px;
+    position: absolute;
+    width: 20px;
+    margin-left: 497px;
+    z-index: 1;
+  }
+  .offers{
+    color: rgb(95, 136, 163);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: proxima-nova, sans-serif;
+    padding-top: 238px;
+    margin-left: 110px;
+  }
+  .paytm-img{
+    width: 80px;
+    height: 40px;
+  }
+  .footer{
+    width: 100%;
+    height: 400px;
+  }
+  .paytm-img{
+    width: 190px;
+    height: 100px;
+    cursor: pointer;
+    border: 0.7px dotted rgb(151, 151, 151);
+    margin-left: 110px;
+    margin-top: 15px;
+  }
+  .ftr{
+    width: 100%;
+    height: 175px;
+    background-color: rgb(34, 46, 58);
+    margin-top: 65px;
+    display: block;
+  }
+  .brand-logo{
+    padding-top: 50px;
+    padding-left: 45px;
+    width: 280px;
+  }
+  .ftr-cntnt{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 6px;
+    color: rgb(131, 154, 177);
+    font-size: 14px;
+    font-family: proxima-nova, sans-serif;
+  }
+.ftr-rgt{
+    margin-left: 1070px;
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.25rem;
+    margin-top: -85px;
+    color: rgb(131, 154, 177);
+}
+.icon{
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 1070px;
+    width: 138px;
+}
+.app-icon{
+    cursor: pointer;
+    margin-left: 25px;
+    width: 138px;
+}
+.ftr-child{
+    width: 100%;
+    background: rgb(26, 39, 53);
+    height: 60px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    border-top: 1px dotted rgb(82, 98, 116);
+    background: rgb(26, 39, 53);
+    color: rgb(92, 111, 131);
+}
+
+.chat-img{
+    width: 4%;
+    margin-top: 70px;
+    margin-right: 16px;
+    float: right;
+    cursor: pointer;
+}
+.addr-prf{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 2rem;
+    border-left: 1px solid rgb(0, 203, 188);
+    padding-left: 0.5rem;
+}
+
+
+
